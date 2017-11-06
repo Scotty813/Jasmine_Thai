@@ -201,6 +201,21 @@ cite {
     margin-left: 20px
 }
 
+.testimonial div:last-of-type{
+    text-align: right;
+}
+
+.testimonial a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background .5s linear;
+}
+
+.testimonial a:hover {
+    background: rgba(175, 52, 52, 0.84);
+}
+
 /*-------------------------------*/
 /* GALLERY */
 /*-------------------------------*/
