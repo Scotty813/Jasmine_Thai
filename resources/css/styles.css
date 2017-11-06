@@ -104,6 +104,10 @@ header p {
     font-size: 150%;
 }
 
+header nav {
+    color: #fcfcfc;
+}
+
 header nav ul {
     display: flex;
     justify-content: space-between;
@@ -129,6 +133,11 @@ header nav ul li:nth-of-type(2){
 
 header a {
     text-decoration: none;
+    color: #d8d7d7;
+    transition: color 0.2s;
+}
+
+header a:hover {
     color: white;
 }
 
