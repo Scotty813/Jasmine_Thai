@@ -201,19 +201,13 @@ cite {
     margin-left: 20px
 }
 
-.testimonial div:last-of-type{
-    text-align: right;
-}
+.align-right { text-align: right;}
 
-.testimonial a {
+#testimonial-btn {
+    background: #8B0000;
     color: white;
     text-decoration: none;
     margin-top: 20px;
-    transition: background .5s linear;
-}
-
-.testimonial a:hover {
-    background: rgba(175, 52, 52, 0.84);
 }
 
 /*-------------------------------*/
@@ -256,8 +250,8 @@ cite {
     box-shadow: 0 0 13px 0px;
     width: 800px;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .info .row:last-of-type {
@@ -287,11 +281,16 @@ cite {
 
 .info .span-1-of-2:first-child {
     text-align: right;
+
 }
 
-.span-1-of-2 p:last-child {
+.info .span-1-of-2 p:last-child {
     margin-bottom: 0;
     margin-left: -70px
+}
+
+.contact {
+    position: static;
 }
 
 /*-------------------------------*/
@@ -310,7 +309,7 @@ footer {
 footer p {
     margin: 0;
     font-size: 90%;
-    display: block
+    text-align: center;
 }
 
 footer ul {
