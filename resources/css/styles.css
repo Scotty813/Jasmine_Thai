@@ -237,6 +237,14 @@ cite {
     background: #f7f7f7;
 }
 
+.info-border {
+    box-shadow: 0 0 13px 0px;
+    width: 800px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .info .row:last-of-type {
     display: flex;
     align-items: center;
@@ -276,16 +284,34 @@ cite {
 /*-------------------------------*/
 
 footer {
+    display: flex;
     height: 150px;
     background: #313131;
-    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 footer p {
     margin: 0;
     font-size: 90%;
+    display: block
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 15px;
+} 
+
+footer i {
+    font-size: 30px;
+    padding: 30px;
+    transition: color .3s;
+}
+
+footer i:hover {
+    color: white;
 }
 
 
